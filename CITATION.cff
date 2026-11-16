@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: >-
+  Cell-type-resolved drug target discovery in major depressive
+  disorder: a reanalysis of GSE144136
+message: If you use this code or its results, please cite it as below.
+type: software
+authors:
+  - given-names: Giuliana
+    family-names: Vizino-Zambito
+    affiliation: Department of Anatomy and Cell Biology, McGill University
+abstract: >-
+  An open, reproducible pipeline that reanalyses public single-nucleus RNA-seq
+  data from the dorsolateral prefrontal cortex of men with major depressive
+  disorder (GSE144136, Nagy et al. 2020), tests for cell-type-specific
+  differential expression by pseudobulk, and ranks the resulting genes as
+  candidate drug targets on evidence, druggability, brain specificity and
+  cell-type specificity. The pipeline converges on the astrocyte receptor
+  GPR37L1, and includes leave-one-donor-out, covariate and cross-cohort
+  robustness checks.
+keywords:
+  - single-nucleus RNA-seq
+  - major depressive disorder
+  - astrocytes
+  - drug target prioritisation
+  - GPR37L1
+license: MIT
+date-released: '2026-11-16'
+references:
+  - type: article
+    authors:
+      - family-names: Nagy
+        given-names: Corina
+    title: >-
+      Single-nucleus transcriptomics of the prefrontal cortex in major
+      depressive disorder implicates oligodendrocyte precursor cells and
+      excitatory neurons
+    journal: Nature Neuroscience
+    volume: 23
+    start: 771
+    end: 781
+    year: 2020
+    doi: 10.1038/s41593-020-0621-y
