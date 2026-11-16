@@ -1,8 +1,18 @@
 # Finding new drug targets for depression, one brain cell type at a time
 
-Almost every antidepressant on the market works on the same idea: boost serotonin or
-related neurotransmitters in neurons. About a third of patients don't respond, and the
-drugs take weeks to work. This project asks a different question:
+Almost every antidepressant on the market works on the same idea: raise serotonin or a
+related monoamine. They take weeks to act, and a large minority of people never get well
+on them: at least 30% of people with depression meet the standard definition of
+treatment-resistant depression, meaning no adequate response to two or more
+antidepressants given at a proper dose and duration [9]. Exactly how large that minority
+is remains contested. The STAR*D trial, still the largest real-world test, reported 67%
+of patients in remission after up to four treatment steps [10]; a 2023 reanalysis of the
+same patient-level data, following the trial's own pre-registered protocol and outcome
+measure, put it at 35% [11]. Drugs with other mechanisms can work, which is the argument
+for looking outside the monoamine system: intranasal esketamine, an NMDA-receptor
+antagonist, improved symptoms in treatment-resistant patients on top of a standard
+antidepressant [12] and was approved in the United States in 2019. This project asks a
+different question:
 
 > **In the brains of people with depression, which non-obvious cell types change, and
 > which of the changed genes could realistically be hit with a drug?**
@@ -228,6 +238,30 @@ are the realistic next steps for a student project. The last two are a thesis.
    identification and validation in drug development. *Science Translational Medicine*
    9, eaag1166 (2017).
    [doi:10.1126/scitranslmed.aag1166](https://doi.org/10.1126/scitranslmed.aag1166)
+9. McIntyre RS, Alsuwaidan M, Baune BT, Berk M, Demyttenaere K, Goldberg JF, Gorwood P,
+   Ho R, Kasper S, Kennedy SH, Ly-Uson J, Mansur RB, McAllister-Williams RH,
+   Murrough JW, Nemeroff CB, Nierenberg AA, Rosenblat JD, Sanacora G, Schatzberg AF,
+   Shelton R, Stahl SM, Trivedi MH, Vieta E, Vinberg M, Williams N, Young AH, Maj M.
+   Treatment-resistant depression: definition, prevalence, detection, management, and
+   investigational interventions. *World Psychiatry* 22, 394-412 (2023).
+   [doi:10.1002/wps.21120](https://doi.org/10.1002/wps.21120)
+10. Rush AJ, Trivedi MH, Wisniewski SR, Nierenberg AA, Stewart JW, Warden D, Niederehe G,
+   Thase ME, Lavori PW, Lebowitz BD, McGrath PJ, Rosenbaum JF, Sackeim HA, Kupfer DJ,
+   Luther J, Fava M. Acute and longer-term outcomes in depressed outpatients requiring
+   one or several treatment steps: a STAR*D report. *American Journal of Psychiatry*
+   163, 1905-1917 (2006).
+   [doi:10.1176/ajp.2006.163.11.1905](https://doi.org/10.1176/ajp.2006.163.11.1905)
+11. Pigott HE, Kim T, Xu C, Kirsch I, Amsterdam J. What are the treatment remission,
+   response and extent of improvement rates after up to four trials of antidepressant
+   therapies in real-world depressed patients? A reanalysis of the STAR*D study's
+   patient-level data with fidelity to the original research protocol.
+   *BMJ Open* 13, e063095 (2023).
+   [doi:10.1136/bmjopen-2022-063095](https://doi.org/10.1136/bmjopen-2022-063095)
+12. Daly EJ, Singh JB, Fedgchin M, Cooper K, Lim P, Shelton RC, Thase ME, Winokur A,
+   Van Nueten L, Manji H, Drevets WC. Efficacy and safety of intranasal esketamine
+   adjunctive to oral antidepressant therapy in treatment-resistant depression: a
+   randomized clinical trial. *JAMA Psychiatry* 75, 139-148 (2018).
+   [doi:10.1001/jamapsychiatry.2017.3739](https://doi.org/10.1001/jamapsychiatry.2017.3739)
 
 ## Reproduce
 
